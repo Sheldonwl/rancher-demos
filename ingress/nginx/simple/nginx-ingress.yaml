@@ -18,7 +18,6 @@ spec:
       labels:
         app: nginx-ingress
     spec:
-      serviceAccountName: nginx-ingress
       containers:
       - image: nginx/nginx-ingress:1.11.1
         imagePullPolicy: IfNotPresent
